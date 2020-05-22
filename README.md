@@ -2,6 +2,7 @@
 [![PyPI](https://img.shields.io/pypi/v/O365.svg)](https://pypi.python.org/pypi/O365)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/O365.svg)](https://pypi.python.org/pypi/O365/)
 [![Build Status](https://travis-ci.org/O365/python-o365.svg?branch=master)](https://travis-ci.org/O365/python-o365)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjeffdinotoriverbed%2Fpython-o365.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjeffdinotoriverbed%2Fpython-o365?ref=badge_shield)
 
 # O365 - Microsoft Graph and Office 365 API made easy
 
@@ -1303,3 +1304,7 @@ Then the exception will be captured and logged it to the stdout with it's messag
 
 HttpErrors 4xx (Bad Request) and 5xx (Internal Server Error) are considered exceptions and raised also by the connection.
 You can tell the `Connection` to not raise http errors by passing `raise_http_errors=False` (defaults to True).
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjeffdinotoriverbed%2Fpython-o365.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fjeffdinotoriverbed%2Fpython-o365?ref=badge_large)
